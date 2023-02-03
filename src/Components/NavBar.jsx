@@ -36,7 +36,7 @@ const Navbar = () => {
           </button>
         </div>
       ) : (
-        <div>
+        <div className='flex'>
           <Link to='/signin'>
             <button className='text-white bg-blue-700 md:bg-transparent rounded-md  font-medium px-4 py-2 pr-4'>Sign In</button>
           </Link>
