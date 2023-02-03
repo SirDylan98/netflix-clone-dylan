@@ -26,7 +26,7 @@ const Signup = () => {
           src='https://assets.nflxext.com/ffe/siteui/vlv3/f841d4c7-10e1-40af-bcae-07a3f8dc141a/f6d7434e-d6de-4185-a6d4-c77a2d08737b/US-en-20220502-popsignuptwoweeks-perspective_alpha_website_medium.jpg'
           alt='/'
         />
-        <div className='bg-black/60 fixed top-0 left-0 w-full h-screen rounded-2xl'></div>
+        <div className='bg-[#050910]/80 fixed top-0 left-0 w-full h-screen rounded-2xl'></div>
         <div className='fixed w-full px-4 py-24 z-50'>
           <div className='max-w-[450px] h-[600px] mx-auto bg-black/75  rounded-2xl text-white'>
             <div className='max-w-[320px] mx-auto py-16'>
@@ -49,7 +49,7 @@ const Signup = () => {
                   placeholder='Password'
                   autoComplete='current-password'
                 />
-                <button className='bg-red-600 py-3 my-6 rounded font-bold'>
+                <button className='bg-blue-700 py-3 my-6 rounded font-bold'>
                   Sign Up
                 </button>
                 <div className='flex justify-between items-center text-sm text-gray-600'>
