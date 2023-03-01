@@ -19,7 +19,7 @@ export default function RenderVidz({trailer}) {
   return (
    
     <div className='w-full h-[500px]'>
-            <YouTube videoId={trailer.key} opts={opts} onReady={onPlayerReady}/>
+            <YouTube videoId={trailer?.key} opts={opts} onReady={onPlayerReady}/>
         </div>
   )
 }

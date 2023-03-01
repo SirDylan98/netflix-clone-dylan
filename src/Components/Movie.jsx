@@ -33,7 +33,7 @@ const Movie = ({ item }) => {
   return (
     <div className="w-[160px] sm:w-[200px] md:w-[240px] lg:w-[280px]  inline-block cursor-pointer relative   p-2">
       <img
-        className="w-full h-[280px] object-cover block"
+        className="w-full h-full object-cover block"
         src={`https://image.tmdb.org/t/p/w500/${item?.backdrop_path}`}
         alt={item?.title}
       />
@@ -45,7 +45,7 @@ const Movie = ({ item }) => {
 
         <FaRegPlayCircle onClick={() => {
             navigate(`/trailer/${item.id}`);
-          }} size={40} className="text-white flex justify-center items-center h-full hover:scale-110 duration-500 transition ease-in-out mx-auto mt-16"/>
+          }} size={30} className="text-white flex justify-center items-center h-full hover:scale-110 duration-500 transition ease-in-out mx-auto mt-6 sm:mt-10"/>
         </div>
         {/* <button
           onClick={() => {
